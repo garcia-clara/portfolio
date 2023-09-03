@@ -1,0 +1,40 @@
+{
+    "projects" : [
+        {
+            "id" : 1,
+            "image": "/pokeball.png",
+            "libelle" : "pokédex",
+            "languages" : "TYPESCRIPT - REACT.JS - VITE - TAILWIND CSS",
+            "date" : "2023",
+            "type" : "projet personnel",
+            "description" : "Répertorie les pokémons de toutes les générations (soit 1008) avec leur noms, identifiants, descriptions, statistiques et types dans une interface similaire au pokédex de la série"
+        },
+        {
+            "id" : 2,
+            "image": "/leveling.jpg",
+            "libelle" : "leveling",
+            "languages" : "PHP - TAILWIND CSS",
+            "date" : "2023",
+            "type" : "projet personnel",
+            "description" : "Réseau social fictif pour le compte d'Ubisoft. Permet d'intégrer une communauté autour des jeux-vidéos en ajoutant des amis, en rejoignant des groupes, des fils de discussions et un chat en ligne"
+        },
+        {
+            "id" : 3,
+            "image": "/orange.png",
+            "libelle" : "Orange Users Manager",
+            "languages" : "PHP - TAILWIND CSS",
+            "date" : "2022",
+            "type" : "projet professionnel",
+            "description" : "Outil de ticketing permettant la gestion de la file d'attente du service Helpdesk d'Orange France. Possibilité d'insérer le nom et l'identifiant d'un utilisateur, son heure d'arrivée ainsi une courte description de son problème"
+        },
+        {
+            "id" : 4,
+            "image": "/sotn.png",
+            "libelle" : "SOTN Enclyclopedia",
+            "languages" : "PHP - TAILWIND CSS",
+            "date" : "2022",
+            "type" : "projet personnel",
+            "description" : "Enclyclopédie des armes du jeu Castlevania : Symphony of the Night sorti sur Playstation en 1997. Permet de faire des recherches et de retrouver toutes les animations et statistiques de l'arme sélectionnéee"
+        }
+    ]
+}
