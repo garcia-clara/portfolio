@@ -1,11 +1,11 @@
 import { FC } from "react";
-import { experiences } from "../experiences.json";
+import { experiences } from "../data/experiences.json";
 
 const Experiences: FC = (): JSX.Element => {
    return (
       <div tabIndex={0} className="collapse collapse-open border border-base-300 bg-base-200 mt-4">
          <input type="checkbox" />
-         <div className="collapse-title text-2xl font-bold uppercase">
+         <div className="collapse-title text-2xl font-bold uppercase bg-base-300">
             expériences professionnelles
          </div>
          <div className="collapse-content">

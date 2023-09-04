@@ -4,7 +4,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 const Footer: FC = (): JSX.Element => {
    return (
       <div>
-         <div className="navbar bg-primary text-primary-content rounded-xl my-4">
+         <div className="navbar rounded-xl my-4">
             <div className="flex w-full justify-between">
                <div className="flex gap-2 ml-4">
                   <svg

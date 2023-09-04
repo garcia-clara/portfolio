@@ -1,0 +1,25 @@
+{
+    "experiences" : [
+        {
+            "id" : 1,
+            "libelle" : "Ingénieure logiciel",
+            "entreprise" : "Orange",
+            "date" : "2023 - Aujourd'hui",
+            "description" : ""
+        },
+        {
+            "id" : 2,
+            "libelle" : "Technicienne Helpdesk",
+            "entreprise" : "Orange",
+            "date" : "2021 - 2023",
+            "description" : "Support informatique de proximité au service des salariés de l'entreprise Orange, réception des utilisateurs et conseils informatiques sur l'utilisation de leur PC et de la suite Microsoft Office 365"
+        },
+        {
+            "id" : 3,
+            "libelle" : "Assistante à la maîtrise d'ouvrage",
+            "entreprise" : "2M Ingenierie",
+            "date" : "2019 - 2021",
+            "description" : "Aide au pilotage d'un projet immobilier, contrôles et suivis réguliers de l'avancement du chantier. Détection des anomalies et malfaçons durant la construction. Conseils et solutions au maître d'œuvre."
+        }
+    ]
+}

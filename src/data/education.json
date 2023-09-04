@@ -1,0 +1,25 @@
+{
+    "education" : [
+        {
+            "id" : 1,
+            "libelle" : "MSc Pro",
+            "ecole" : "EPITECH",
+            "date" : "2023 - Aujourd'hui",
+            "description" : ""
+        },
+        {
+            "id" : 2,
+            "libelle" : "BTS SIO option SLAM",
+            "ecole" : "CFA INSTA",
+            "date" : "2021 - 2023",
+            "description" : "Acquisition des bases Java, C, Python, PHP-MySQL, HTML-CSS, JavaScript Réalisation de divers projets de groupes. Prise en main des machines virtuelles Debian et Ubuntu"
+        },
+        {
+            "id" : 3,
+            "libelle" : "BAC PRO TEBAA",
+            "ecole" : "CFA SAINT LAMBERT",
+            "date" : "2019 - 2021",
+            "description" : "Traduction graphique de projets architecturaux en 2D et 3D, production de dessins et de plans d'exécutions, calculs de frais de chantier"
+        }
+    ]
+}

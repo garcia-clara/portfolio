@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { education } from "../education.json";
+import { education } from "../data/education.json";
 
 const Experiences: FC = (): JSX.Element => {
    return (
@@ -8,7 +8,7 @@ const Experiences: FC = (): JSX.Element => {
          className="collapse collapse-open border border-base-300 bg-base-200 mt-4"
       >
          <input type="checkbox" />
-         <div className="collapse-title text-2xl font-bold uppercase">
+         <div className="collapse-title text-2xl font-bold uppercase bg-base-300">
             formations
          </div>
          <div className="collapse-content">
