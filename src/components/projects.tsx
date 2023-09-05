@@ -10,8 +10,8 @@ const Experiences: FC = (): JSX.Element => {
             
          {projects.map((oneProject) => (
             <a href={oneProject.link} target='_blank'>
-               <div className='mt-4'>
-                  <div className=' flex gap-2'>
+               <div className='mt-4 py-2 hover:bg-base-300 rounded-xl'>
+                  <div className='flex gap-2'>
                      <div className='ml-4'>
                         <p className='uppercase font-bold text-lg'>{oneProject.libelle}</p>
                         <div className='flex text-sm gap-2'>
