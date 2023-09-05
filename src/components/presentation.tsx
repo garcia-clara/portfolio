@@ -7,7 +7,7 @@ const Presentation: FC = (): JSX.Element => {
       <div className='flex mt-8'>
          <div className='h-40 w-40 rounded-full bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500'>
             <div className='w-40 h-40 p-1'>
-               <img className='rounded-full' src='../public/pfp.jpg' alt='' />
+               <img className='rounded-full' src='/pfp.jpg' alt='' />
             </div>
          </div>
          <div className='px-4'>
