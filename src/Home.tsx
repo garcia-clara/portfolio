@@ -9,7 +9,7 @@ import './index.css'
 function Home() {
    return (
       <>
-         <div className='grid grid-cols-4 font-lato'>
+         <div className='grid grid-cols-4'>
             <div className='col-start-2 col-end-4'>
                <Presentation />
                <Experiences />
