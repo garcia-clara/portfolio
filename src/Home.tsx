@@ -9,8 +9,9 @@ import './index.css'
 function Home() {
    return (
       <>
-         <div className='grid grid-cols-4'>
-            <div className='col-start-2 col-end-4'>
+         <div className='flex w-full justify-center'>
+         
+            <div className='max-w-3xl mx-auto px-4'>
                <Presentation />
                <Experiences />
                <Education />

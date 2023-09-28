@@ -13,7 +13,7 @@ const Experiences: FC = (): JSX.Element => {
          </div>
          <div className="collapse-content">
             {education.map((oneEducation) => (
-               <div className="grid grid-cols-3">
+               <div className="xl, 2xl:grid xl, 2xl:grid-cols-3">
                   <div className="mt-4 flex gap-2">
                      <div className="text-lg">✦</div>
                      <div>

@@ -4,9 +4,9 @@ import Theme from './theme-button'
 
 const Presentation: FC = (): JSX.Element => {
    return (
-      <div className='flex mt-8'>
-         <div className='h-40 w-40 rounded-full bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500'>
-            <div className='w-40 h-40 p-1'>
+      <div className='flex mt-8 min-w-fit'>
+         <div className='h-20 w-20 rounded-full bg-gradient-to-b from-pink-500 via-red-500 to-yellow-500'>
+            <div className='w-20 h-20 p-1'>
                <img className='rounded-full' src='/pfp.jpg' alt='' />
             </div>
          </div>
@@ -16,7 +16,7 @@ const Presentation: FC = (): JSX.Element => {
                <Theme />
             </div>
 
-            <div className='flex gap-2 mb-2'>
+            <div className='flex gap-2 mb-2 flex-wrap'>
                <a href='https://www.linkedin.com/in/clara-garcia-9845891b8/' target='_blank'>
                   <div className='badge badge-primary gap-1'>
                      <div>Linkedin</div>
@@ -53,12 +53,14 @@ const Presentation: FC = (): JSX.Element => {
                   </div>
                </a>
             </div>
-
             <p>
                Étudiante en informatique et amatrice de webdesign. Mes passions sont la
                programmation, le dessin mais aussi les jeux-vidéos rétro. Passionnée et curieuse, je
                cherche constamment à me tenir à jour et à acquérir de nouvelles compétences.
             </p>
+         </div>
+         <div>
+
          </div>
       </div>
    )

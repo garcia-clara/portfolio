@@ -8,9 +8,11 @@ const Experiences: FC = (): JSX.Element => {
          <div className="collapse-title text-2xl font-bold uppercase bg-base-300">
             expériences professionnelles
          </div>
+         
          <div className="collapse-content">
+            
             {experiences.map((oneExperience) => (
-               <div className="grid grid-cols-3">
+               <div className="xl, 2xl:grid xl, 2xl:grid-cols-3">
                   <div className="mt-4 flex gap-2">
                      <div className="text-lg">✦</div>
                      <div>
@@ -28,7 +30,7 @@ const Experiences: FC = (): JSX.Element => {
                </div>
             ))}
          </div>
-      </div>
+         </div>
    );
 };
 
