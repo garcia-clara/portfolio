@@ -3,10 +3,6 @@
 A personal portfolio website built with **React** and **TypeScript** to showcase my professional experience, education, and personal projects.  
 This project serves as a platform to introduce myself, highlight my skills, and share more about my journey as a developer.  
 
----
-
-## Live Demo  
-
 🌐 **Explore my portfolio**: [claragarcia.dev](https://claragarcia.dev/)
 
 ---
