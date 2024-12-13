@@ -1,3 +1,5 @@
+<img src="https://www.pngmart.com/files/7/Portfolio-PNG-Transparent-Image.png" alt="Portfolio Logo" height="100">
+
 # Portfolio  
 
 A personal portfolio website built with **React** and **TypeScript** to showcase my professional experience, education, and personal projects.  
