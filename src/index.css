@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Outfit";
-  src: url("../src/assets/fonts/outfit.ttf");
+  src: url("/fonts/outfit.ttf");
 }
 @import "tailwindcss";
 @plugin "daisyui";
