@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Software Engineer",
+        "icon": "/images/orange.svg",
+        "employer": "Orange",
+        "startDate": "2023",
+        "endDate": "2026",
+        "description": "Development of an E-commerce store for sales clerks using Symfony and Drupal. Work in sprints with Agile methodology.",
+        "location": "Arcueil, France",
+        "apprenticeship": true,
+        "diploma": "Master of Science Business & Technology Management",
+        "diplomaLink" : "https://www.francecompetences.fr/recherche/rncp/35284/",
+        "school": "Epitech",
+        "schoolIcon" : "/images/epitech.jpg",
+        "schoolLocation": "Le Kremlin-Bicêtre, France"
+        
+    },
+    {
+        "title": "IT Support Technician",
+        "icon": "/images/orange.svg",
+        "employer": "Orange",
+        "startDate": "2021",
+        "endDate": "2023",
+        "description": "Installation, integration and updating of new equipment, control and audit of workstation configuration, assistance and advice to users on peripheral security (backups, passwords) and data protection, management of IT assets, management of technical incidents and troubleshooting.",
+        "location": "Arcueil, France",
+        "apprenticeship": true,
+        "diploma": "BTS Computer Services for Organizations (SLAM)",
+        "diplomaLink" : "https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers",
+        "school": "CFA Insta",
+        "schoolIcon" : "/images/cfainsta.jpg",
+        "schoolLocation": "Paris, France"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "title": "React",
+        "image": "/images/react.svg"
+    },
+    {
+        "title": "Next.js",
+        "image": "/images/next.png"
+    },
+    {
+        "title": "PHP",
+        "image": "/images/php.svg"
+    },
+    {
+        "title": "Symfony",
+        "image": "/images/symfony.svg"
+    }
+]

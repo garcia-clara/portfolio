@@ -1,41 +1,41 @@
-{
-    "projects" : [
-        {
-            "id" : 1,
-            "image": "/pokeball.png",
-            "libelle" : "pokédex",
-            "languages" : "TYPESCRIPT - REACT.JS - VITE - TAILWIND CSS",
-            "date" : "2023",
-            "type" : "projet personnel",
-            "description" : "Répertorie les pokémons de toutes les générations (soit 1008) avec leur noms, identifiants, descriptions, statistiques et types dans une interface similaire au pokédex de la série",
-            "link" : "https://pokedex-fefkh02le-clara-garcia.vercel.app/"
-        },
-        {
-            "id" : 2,
-            "image": "/controller.jpg",
-            "libelle" : "leveling",
-            "languages" : "PHP - TAILWIND CSS",
-            "date" : "2023",
-            "type" : "projet personnel",
-            "description" : "Réseau social fictif pour le compte d'Ubisoft. Permet d'intégrer une communauté autour des jeux-vidéos en ajoutant des amis, en rejoignant des groupes, des fils de discussions et un chat en ligne"
-        },
-        {
-            "id" : 3,
-            "image": "/computer.png",
-            "libelle" : "Orange Users Manager",
-            "languages" : "PHP - TAILWIND CSS",
-            "date" : "2022",
-            "type" : "projet professionnel",
-            "description" : "Outil de ticketing permettant la gestion de la file d'attente du service Helpdesk d'Orange France. Possibilité d'insérer le nom et l'identifiant d'un utilisateur, son heure d'arrivée ainsi une courte description de son problème"
-        },
-        {
-            "id" : 4,
-            "image": "/sword.jpg",
-            "libelle" : "SOTN Enclyclopedia",
-            "languages" : "PHP - TAILWIND CSS",
-            "date" : "2022",
-            "type" : "projet personnel",
-            "description" : "Enclyclopédie des armes du jeu Castlevania : Symphony of the Night sorti sur Playstation en 1997. Permet de faire des recherches et de retrouver toutes les animations et statistiques de l'arme sélectionnéee"
-        }
-    ]
-}
+[
+    {
+        "title": "Vortex",
+        "description": "Graduation project, a TCG (Trading Card Game) from scratch.",
+        "image": "/screenshots/vortex.png",
+        "languages": ["Unity", "C#"],
+        "type": "School"
+    },
+    {
+        "title": "Windows Live Messenger",
+        "description": "A reproduction of Windows Live Messenger, the famous instant messaging software, with an AI.",
+        "image": "/screenshots/wlm.png",
+        "languages": ["React", "JS"],
+        "type": "Personnal",
+        "url": "https://wlm.vercel.app/login",
+        "repository": "https://github.com/garcia-clara/windows-live-messenger"
+    },
+    {
+        "title": "Atlas Food",
+        "description": "An e-commerce platform to order food online, using OpenFoodApi.",
+        "image": "/screenshots/atlasfood.png",
+        "languages": ["React", "JS", "Django"],
+        "type": "School"
+    },
+    {
+        "title": "Spacebay",
+        "description": "An e-commerce platform for the fictional sale of spaceships.",
+        "image": "/screenshots/spacebay.png",
+        "languages": ["React", "JS", "Symfony"],
+        "type": "School"
+    },
+    {
+        "title": "Pokedex",
+        "description": "An interactive Pokédex to view Pokémon information using PokeAPI.",
+        "image": "/screenshots/pokedex.png",
+        "languages": ["React", "TS"],
+        "type": "Personnal",
+        "url": "https://pokedex-fefkh02le-clara-garcia.vercel.app/",
+        "repository": "https://github.com/garcia-clara/pokedex"
+    }
+]
