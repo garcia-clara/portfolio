@@ -46,7 +46,7 @@ export const Contact = () => {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block mb-2 font-medium text-gray-900"
+              className="block mb-2 font-medium"
             >
               Your message
             </label>
