@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from 'react';
 import { Aboutme } from "./sections/Aboutme";
 import { Projects } from "./sections/Projects";
 import { WorkExperience } from "./sections/WorkExperience";
@@ -6,6 +7,7 @@ import { Contact } from "./sections/Contact";
 import { Footer } from "./sections/Footer";
 import { Header } from "./sections/Header";
 import { Navbar } from "./sections/Navbar";
+import Loader from "./components/Loader";
 
 const sectionVariants = {
   hidden: { opacity: 0, y: 60 },
@@ -20,6 +22,19 @@ const sectionVariants = {
 };
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <div className="font-outfit">
       <Navbar />

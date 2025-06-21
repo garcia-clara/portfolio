@@ -24,19 +24,19 @@ export const Aboutme = () => {
         I’m a passionate web developer specializing in{" "}
         <strong>front-end development</strong> with <strong>React</strong> and{" "}
         <strong>Next.js</strong>, with a strong interest in{" "}
-        <strong>design</strong> and <strong>user experience</strong>.
-        My enthusiasm for <strong>UI/UX</strong> led me to explore{" "}
+        <strong>design</strong> and <strong>user experience</strong>. My
+        enthusiasm for <strong>UI/UX</strong> led me to explore{" "}
         <strong>Figma</strong>, allowing me to design <strong>intuitive</strong>{" "}
-        and <strong>engaging</strong> interfaces.
-        My training in web development, enhanced by a specialization in{" "}
+        and <strong>engaging</strong> interfaces. My training in web
+        development, enhanced by a specialization in{" "}
         <strong>digital transformation</strong>, has given me a cross-functional
         perspective, blending <strong>technical</strong> and{" "}
-        <strong>strategic</strong> understanding of digital projects.
-        During my work-study program, I contributed to various projects, taking
-        on roles such as <strong>developer</strong>, <strong>designer</strong>,
-        and <strong>project manager</strong>.
-        This <strong>versatility</strong> allows me to approach every project
-        with a <strong>global vision</strong>, combining attention to detail,
+        <strong>strategic</strong> understanding of digital projects. During my
+        work-study program, I contributed to various projects, taking on roles
+        such as <strong>developer</strong>, <strong>designer</strong>, and{" "}
+        <strong>project manager</strong>. This <strong>versatility</strong>{" "}
+        allows me to approach every project with a{" "}
+        <strong>global vision</strong>, combining attention to detail,
         creativity, and user-centered thinking.
       </p>
 
@@ -51,14 +51,21 @@ export const Aboutme = () => {
             viewport={{ once: true, amount: 0.2 }}
             variants={skillVariants}
           >
-            <img
-              src={skill.image}
-              alt={skill.title}
-              width={70}
-              height={70}
-              className="rounded"
-              style={{ objectFit: "contain" }}
-            />
+            <div class="card flex flex-wrap h-20 w-20 md:h-25 md:w-25">
+              <div class="card-inner">
+                <div class="card-front p-2">
+                  <img
+                    src={skill.image}
+                    alt={skill.title}
+                    width={70}
+                    height={70}
+                    className="rounded"
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+                <div class="card-back bg-secondary">{skill.title}</div>
+              </div>
+            </div>
           </motion.div>
         ))}
       </div>

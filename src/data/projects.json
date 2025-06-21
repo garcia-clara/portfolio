@@ -6,7 +6,8 @@
         "languages": ["Unity", "C#"],
         "type": "School",
         "url": "",
-        "repository": ""
+        "repository": "",
+        "longDescription": "Vortex was my graduation project: a trading card game (TCG) developed entirely from scratch. The game offers an immersive experience with strategic gameplay mechanics and a rich universe. We designed the cards, game rules, and user interface, and developed the game engine in Unity using C#. I acted as project manager and product owner, also supervising the artistic direction. This is my most accomplished and professional project to date."
     },
     {
         "title": "Windows Live Messenger",
@@ -15,7 +16,8 @@
         "languages": ["React", "JS"],
         "type": "Personnal",
         "url": "https://wlm.vercel.app/login",
-        "repository": "https://github.com/garcia-clara/windows-live-messenger"
+        "repository": "https://github.com/garcia-clara/windows-live-messenger",
+        "longDescription": "This project is a faithful recreation of the iconic instant messaging software, Windows Live Messenger (2009 version). Users cannot create real accounts; instead, they can enter any information, access pre-made contacts, and chat with an AI. The main goal was to visually replicate the original application for maximum nostalgia, not to build a real chat app. I also implemented Discord authentication to retrieve pre-existing data from the API."
     },
     {
         "title": "Atlas Food",
@@ -24,7 +26,8 @@
         "languages": ["React", "JS", "Django"],
         "type": "School",
         "url": "",
-        "repository": ""
+        "repository": "",
+        "longDescription": "Atlas Food is a web and mobile e-commerce platform using OpenFoodAPI. The goal was to create an application allowing users to order food online. We used React for the frontend and Django for the backend, integrating OpenFoodAPI to fetch product data. Users can browse items, place orders, manage their cart, update personal information, and view their order history."
     },
     {
         "title": "Midnight Inquisition",
@@ -33,7 +36,8 @@
         "languages": ["Python", "Ren'Py"],
         "type": "School",
         "url": "",
-        "repository": ""
+        "repository": "",
+        "longDescription": "Midnight Inquisition was our BAC+3 end-of-year project, with complete freedom of project and language choice. We decided to create a narrative game using Ren'Py, a visual novel engine. The player takes on the role of an investigator tasked with solving the mysterious death of the king, interrogating characters and making decisions that influence the story. I was responsible for character creation and part of the scenario writing."
     },
     {
         "title": "Spacebay",
@@ -42,7 +46,8 @@
         "languages": ["React", "JS", "Symfony"],
         "type": "School",
         "url": "",
-        "repository": ""
+        "repository": "",
+        "longDescription": "Spacebay is an e-commerce platform developed to learn Symfony and use Docker for frontend-backend integration. Spacebay is a fictional platform for buying and selling spaceships, allowing users to browse and purchase ships in a futuristic universe."
     },
     {
         "title": "Pokedex",
@@ -51,6 +56,7 @@
         "languages": ["React", "TS"],
         "type": "Personnal",
         "url": "https://pokedex-fefkh02le-clara-garcia.vercel.app/",
-        "repository": "https://github.com/garcia-clara/pokedex"
+        "repository": "https://github.com/garcia-clara/pokedex",
+        "longDescription": "My first application using React and TypeScript, aimed at learning how to handle data from an API. I used PokeAPI to fetch Pokémon data and display it interactively. The app is simple: users can scroll through Pokémon, view their stats, types, and descriptions."
     }
 ]
