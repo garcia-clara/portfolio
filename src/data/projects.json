@@ -27,6 +27,15 @@
         "repository": ""
     },
     {
+        "title": "Midnight Inquisition",
+        "description": "A narrative game where you must investigate the mysterious death of the king.",
+        "image": "/screenshots/midnightinquisition.png",
+        "languages": ["Python", "Ren'Py"],
+        "type": "School",
+        "url": "",
+        "repository": ""
+    },
+    {
         "title": "Spacebay",
         "description": "An e-commerce platform for the fictional sale of spaceships.",
         "image": "/screenshots/spacebay.png",
