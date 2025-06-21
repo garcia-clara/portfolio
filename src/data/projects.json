@@ -4,7 +4,9 @@
         "description": "Graduation project, a TCG (Trading Card Game) from scratch.",
         "image": "/screenshots/vortex.png",
         "languages": ["Unity", "C#"],
-        "type": "School"
+        "type": "School",
+        "url": "",
+        "repository": ""
     },
     {
         "title": "Windows Live Messenger",
@@ -20,14 +22,18 @@
         "description": "An e-commerce platform to order food online, using OpenFoodApi.",
         "image": "/screenshots/atlasfood.png",
         "languages": ["React", "JS", "Django"],
-        "type": "School"
+        "type": "School",
+        "url": "",
+        "repository": ""
     },
     {
         "title": "Spacebay",
         "description": "An e-commerce platform for the fictional sale of spaceships.",
         "image": "/screenshots/spacebay.png",
         "languages": ["React", "JS", "Symfony"],
-        "type": "School"
+        "type": "School",
+        "url": "",
+        "repository": ""
     },
     {
         "title": "Pokedex",

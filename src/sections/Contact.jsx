@@ -17,7 +17,7 @@ export const Contact = () => {
 
   return (
     <div className="p-8 py-20">
-      <div className="text-6xl font-extrabold">CONTACT</div>
+      <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold">CONTACT</div>
       <div className="py-8 px-4 mx-auto">
         <p className="mb-8 font-light sm:text-xl">
           If you have any questions or just want to say hello, feel free to

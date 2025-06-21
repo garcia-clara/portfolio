@@ -1,18 +1,26 @@
 [
     {
         "title": "React",
-        "image": "/images/react.svg"
+        "image": "/images/react.svg",
+        "level": "",
+        "description": ""
     },
     {
         "title": "Next.js",
-        "image": "/images/next.png"
+        "image": "/images/next.png",
+        "level": "",
+        "description": ""
     },
     {
         "title": "PHP",
-        "image": "/images/php.svg"
+        "image": "/images/php.svg",
+        "level": "",
+        "description": ""
     },
     {
         "title": "Symfony",
-        "image": "/images/symfony.svg"
+        "image": "/images/symfony.svg",
+        "level": "",
+        "description": ""
     }
 ]

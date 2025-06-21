@@ -17,7 +17,9 @@ const skillVariants = {
 export const Aboutme = () => {
   return (
     <div className="p-8 py-20 bg-base-200">
-      <div className="text-6xl font-extrabold">INTRODUCTION</div>
+      <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold">
+        INTRODUCTION
+      </div>
       <p className="mb-7 text-justify">
         I’m a passionate web developer specializing in{" "}
         <strong>front-end development</strong> with <strong>React</strong> and{" "}
