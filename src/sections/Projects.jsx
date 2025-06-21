@@ -80,7 +80,7 @@ export const Projects = () => {
           </div>
         ))}
       </div>
-      <dialog id="projectmodal" className="modal">
+      <dialog id="projectmodal" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
           {selectedProject && (
             <>
