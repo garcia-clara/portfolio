@@ -37,7 +37,7 @@ export const Aboutme = () => {
             viewport={{ once: true, amount: 0.2 }}
             variants={skillVariants}
           >
-            <div class="card flex flex-wrap h-1 w-17 md:h-25 md:w-25">
+            <div class="card flex flex-wrap h-17 w-17 md:h-25 md:w-25">
               <div class="card-inner">
                 <div class="card-front p-2">
                   <img
