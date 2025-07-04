@@ -20,25 +20,11 @@ export const Aboutme = () => {
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold">
         INTRODUCTION
       </div>
-      <p className="mb-7 text-justify">
-        I’m a passionate web developer specializing in{" "}
-        <strong>front-end development</strong> with <strong>React</strong> and{" "}
-        <strong>Next.js</strong>, with a strong interest in{" "}
-        <strong>design</strong> and <strong>user experience</strong>. My
-        enthusiasm for <strong>UI/UX</strong> led me to explore{" "}
-        <strong>Figma</strong>, allowing me to design <strong>intuitive</strong>{" "}
-        and <strong>engaging</strong> interfaces. My training in web
-        development, enhanced by a specialization in{" "}
-        <strong>digital transformation</strong>, has given me a cross-functional
-        perspective, blending <strong>technical</strong> and{" "}
-        <strong>strategic</strong> understanding of digital projects. During my
-        work-study program, I contributed to various projects, taking on roles
-        such as <strong>developer</strong>, <strong>designer</strong>, and{" "}
-        <strong>project manager</strong>. This <strong>versatility</strong>{" "}
-        allows me to approach every project with a{" "}
-        <strong>global vision</strong>, combining attention to detail,
-        creativity, and user-centered thinking.
+      <p className="mb-7 text-justify mt-4 font-light text-xl">
+        I’m Clara Garcia, a passionate and detail-oriented <strong>web developer</strong> specializing in <strong>front-end technologies</strong>. Curious by nature, I constantly update my skills to stay at the cutting edge of web development. My interest in <strong>design</strong> and <strong>user experience</strong> naturally led me to dive into modern frameworks such as <strong>React</strong> and <strong>Next.js</strong>. I love crafting interfaces that are not only functional but also visually engaging. Whether I’m coding, designing, or drawing, I bring <strong>creativity</strong> and <strong>precision</strong> to everything I do.
       </p>
+
+
 
       <div className="flex gap-4">
         {skills.map((skill, index) => (

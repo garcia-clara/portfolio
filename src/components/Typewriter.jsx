@@ -5,7 +5,9 @@ class TypeWriter extends React.PureComponent {
     super(props);
 
     this.state = {
-      text: ""
+      text: "",
+      currentIndex: 0,
+      isComplete: false
     };
 
     this.tick = this.tick.bind(this);
@@ -13,9 +15,6 @@ class TypeWriter extends React.PureComponent {
 
   componentDidMount() {
     this.unmounted = false;
-    this.loopNum = 0;
-    this.period = 2000;
-    this.isDeleting = false;
     this.tick();
   }
 
@@ -24,45 +23,37 @@ class TypeWriter extends React.PureComponent {
   }
 
   tick() {
-    if (this.unmounted) {
+    if (this.unmounted || this.state.isComplete) {
       return;
     }
 
     const { data: toRotate } = this.props;
-    const i = this.loopNum % toRotate.length;
-    const fullTxt = toRotate[i];
+    const fullText = toRotate.join(" ");
+    const { currentIndex } = this.state;
 
-    let newText = "";
-    if (this.isDeleting) {
-      newText = fullTxt.substring(0, this.state.text.length - 1);
+    if (currentIndex < fullText.length) {
+      this.setState({
+        text: fullText.substring(0, currentIndex + 1),
+        currentIndex: currentIndex + 1
+      });
+
+      const delta = 100 + Math.random() * 100; // Vitesse de frappe variable
+
+      setTimeout(() => {
+        this.tick();
+      }, delta);
     } else {
-      newText = fullTxt.substring(0, this.state.text.length + 1);
+      this.setState({ isComplete: true });
     }
-
-    let delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) {
-      delta /= 2;
-    }
-
-    if (!this.isDeleting && newText === fullTxt) {
-      delta = this.period;
-      this.isDeleting = true;
-    } else if (this.isDeleting && newText === "") {
-      this.isDeleting = false;
-      this.loopNum++;
-      delta = 500;
-    }
-
-    this.setState({ text: newText });
-
-    setTimeout(() => {
-      this.tick();
-    }, delta);
   }
 
   render() {
-    return <span className="typewriter text-primary">{this.state.text}</span>;
+    return (
+      <span className="typewriter">
+        {this.state.text}
+        {!this.state.isComplete && <span className="cursor">|</span>}
+      </span>
+    );
   }
 }
 

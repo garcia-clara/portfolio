@@ -4,7 +4,7 @@ export const WorkExperience = () => {
   return (
     <div className="p-8 py-20">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold">EDUCATION & EXPERIENCE</div>
-      <p className="mb-7">
+      <p className="mb-7 mt-4 font-light text-xl">
         I completed all my degrees through apprenticeship programs, which allowed me to split my time equally between working in a company and studying at school. This unique approach enabled me to gain substantial professional experience while simultaneously developing strong academic skills.
       </p>
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical mt-8">

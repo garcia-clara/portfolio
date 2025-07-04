@@ -19,7 +19,7 @@ export const Contact = () => {
     <div className="p-8 py-20">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-extrabold">CONTACT</div>
       <div className="py-8 px-4 mx-auto">
-        <p className="mb-8 font-light sm:text-xl">
+        <p className="mb-8 font-light text-xl">
           If you have any questions or just want to say hello, feel free to
           reach out! I'm always open to discussing new projects, creative ideas,
           or opportunities to be part of your vision.

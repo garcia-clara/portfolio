@@ -4,10 +4,7 @@ import { BsBadge3dFill } from "react-icons/bs";
 
 export const Header = () => {
   const typeWriter = [
-    "Front-end Developer     ",
-    "Product Owner     ",
-    "IT Project Manager     ",
-    "Web Designer     ",
+    "I am a Web Developer     ",
   ];
   return (
     <>
@@ -17,7 +14,7 @@ export const Header = () => {
             Hi, I'm Clara
           </div>
           <div className="text-lg sm:text-2xl font-semibold mt-4 text-center md:text-left">
-            I am a <TypeWriter data={typeWriter} />
+            <TypeWriter data={typeWriter} />
           </div>
         </div>
         <div className="flex-1 flex justify-center items-center md:mb-0">
