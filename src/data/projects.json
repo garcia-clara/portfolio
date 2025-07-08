@@ -35,7 +35,7 @@
         "image": "/screenshots/midnightinquisition.png",
         "languages": ["Python", "Ren'Py"],
         "type": "School",
-        "url": "",
+        "url": "https://buddybudd.itch.io/midnight-inquisition",
         "repository": "",
         "longDescription": "Midnight Inquisition was our BAC+3 end-of-year project, with complete freedom of project and language choice. We decided to create a narrative game using Ren'Py, a visual novel engine. The player takes on the role of an investigator tasked with solving the mysterious death of the king, interrogating characters and making decisions that influence the story. I was responsible for character creation and part of the scenario writing."
     },
